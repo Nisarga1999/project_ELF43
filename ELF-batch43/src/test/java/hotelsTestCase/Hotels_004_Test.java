@@ -12,7 +12,7 @@ import generic_Libraries.BaseClass;
 import generic_Libraries.ReadData;
 
 public class Hotels_004_Test extends BaseClass {
-	@Test
+	@Test(groups = "Functionality")
 	public void checkOut() {
 		/*LocalDateTime SystemDateTime = LocalDateTime.now().plusDays(3);
 		String month = SystemDateTime.getMonth().name();

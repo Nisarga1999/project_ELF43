@@ -1,57 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="0" passed="0">
   <reporter-output>
-    <line>
-      <![CDATA[Empty Chrome Browser is launched Successfully]]>
-    </line>
-    <line>
-      <![CDATA[Browser Window is maximized]]>
-    </line>
-    <line>
-      <![CDATA[Landed Succesfully to the Home Page of the application]]>
-    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="7302" started-at="2023-01-24T21:03:41 IST" finished-at="2023-01-24T21:03:48 IST">
+  <suite name="Default suite" duration-ms="656" started-at="2023-02-16T11:12:37 IST" finished-at="2023-02-16T11:12:38 IST">
     <groups>
+      <group name="Functionality">
+        <method signature="Hotels_001_Test.printLocator([Ljava.lang.String;)[pri:0, instance:hotelsTestCase.Hotels_001_Test@436e852b]" name="printLocator" class="hotelsTestCase.Hotels_001_Test"/>
+      </group> <!-- Functionality -->
     </groups>
-    <test name="Default test" duration-ms="7302" started-at="2023-01-24T21:03:41 IST" finished-at="2023-01-24T21:03:48 IST">
-      <class name="hotelsTestCase.Hotels_007_Test">
-        <test-method status="PASS" signature="browserSetUp(java.lang.String)[pri:0, instance:hotelsTestCase.Hotels_007_Test@9a7504c]" name="browserSetUp" is-config="true" duration-ms="4561" started-at="2023-01-24T21:03:41 IST" finished-at="2023-01-24T21:03:46 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Empty Chrome Browser is launched Successfully]]>
-            </line>
-            <line>
-              <![CDATA[Browser Window is maximized]]>
-            </line>
-            <line>
-              <![CDATA[Landed Succesfully to the Home Page of the application]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- browserSetUp -->
-        <test-method status="PASS" signature="residenceSelect([Ljava.lang.String;)[pri:0, instance:hotelsTestCase.Hotels_007_Test@9a7504c]" name="residenceSelect" duration-ms="1338" started-at="2023-01-24T21:03:46 IST" data-provider="data" finished-at="2023-01-24T21:03:47 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[Ljava.lang.String;@294bdeb4]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- residenceSelect -->
-        <test-method status="PASS" signature="browserTermination()[pri:0, instance:hotelsTestCase.Hotels_007_Test@9a7504c]" name="browserTermination" is-config="true" duration-ms="761" started-at="2023-01-24T21:03:47 IST" finished-at="2023-01-24T21:03:48 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserTermination -->
-      </class> <!-- hotelsTestCase.Hotels_007_Test -->
+    <test name="Default test" duration-ms="656" started-at="2023-02-16T11:12:37 IST" finished-at="2023-02-16T11:12:38 IST">
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

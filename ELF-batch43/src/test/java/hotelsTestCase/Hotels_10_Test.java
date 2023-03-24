@@ -19,7 +19,7 @@ public class Hotels_10_Test extends BaseClass {
 		return info;
 	}
 
-	@Test(dataProvider = "data", priority = 1)
+	@Test(dataProvider = "data", groups = "Functionality")
 	public void searchHotel(String data[]) throws InterruptedException {
 		homePage.getHotelsNavBar().click();
 		explicitWait.until(ExpectedConditions.elementToBeClickable(hotelPage.getSearchHotelButton()));

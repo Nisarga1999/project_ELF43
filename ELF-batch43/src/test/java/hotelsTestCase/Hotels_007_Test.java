@@ -15,7 +15,7 @@ public class Hotels_007_Test extends BaseClass{
 		String[][] info = ReadData.multipleDataFromExcel("Nisarga", "Hotels_007_Test");
 		return info;
 	}
-	@Test(dataProvider = "data")
+	@Test(dataProvider = "data",groups = "Funtionality")
 	public void residenceSelect(String data[]) throws InterruptedException {
 		
 		homePage.getHotelsNavBar().click();

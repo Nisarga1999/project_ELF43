@@ -13,7 +13,7 @@ import generic_Libraries.BaseClass;
 import generic_Libraries.ReadData;
 
 public class Hotels_003_Test extends  BaseClass{
-@Test
+@Test(groups = "Functionality")
 	public void checkIncalenderPopUp() throws InterruptedException {
 	/*	LocalDateTime SystemDateTime = LocalDateTime.now().plusDays(2);
 		String month = SystemDateTime.getMonth().name();

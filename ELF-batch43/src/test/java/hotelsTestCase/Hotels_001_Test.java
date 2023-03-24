@@ -10,11 +10,12 @@ import generic_Libraries.*;
 public class Hotels_001_Test extends BaseClass {
 	@DataProvider()
 	public String[][] data() {
-		String[][] info = ReadData.multipleDataFromExcel("Nisarga", "Hotels_001_Test");
+		String[][] info = ReadData.multipleDataFromExcel("Nisarga", "Hotel5_001_Test");
 		return info;
 	}
 
-	@Test(dataProvider = "data")
+	@Test(dataProvider = "data",groups = "Functionality")
+	
 	public void printLocator(String data[]) throws InterruptedException {
 		homePage.getHotelsNavBar().click();
 		explicitWait.until(ExpectedConditions.elementToBeClickable(hotelPage.getSearchHotelButton()));

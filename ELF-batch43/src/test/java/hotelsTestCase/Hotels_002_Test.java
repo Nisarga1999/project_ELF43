@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 import generic_Libraries.BaseClass;
 
 public class Hotels_002_Test extends BaseClass {
-	@Test
+	@Test(groups = "Functionality")
 	public void destinationError() {
 
 		homePage.getHotelsNavBar().click();

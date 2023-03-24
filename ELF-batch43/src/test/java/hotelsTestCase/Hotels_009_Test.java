@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 import generic_Libraries.BaseClass;
 
 public class Hotels_009_Test extends BaseClass {
-@Test
+@Test(groups = "Funtionality")
 public void isolation() {
 	homePage.getHotelsNavBar().click();
 	explicitWait.until(ExpectedConditions.elementToBeClickable(hotelPage.getSearchHotelButton()));

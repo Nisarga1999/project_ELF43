@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 import generic_Libraries.BaseClass;
 
 public class Hotels_008_Test extends BaseClass{
-	@Test
+	@Test(groups = "Functionality")
 	public void locators() {
 		homePage.getHotelsNavBar().click();
 		String destinationLocator = hotelPage.getDestinationLocator().getText();

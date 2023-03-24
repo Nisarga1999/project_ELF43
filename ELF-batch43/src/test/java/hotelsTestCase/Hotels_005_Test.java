@@ -15,7 +15,7 @@ public class Hotels_005_Test extends BaseClass{
 		String[][] info = ReadData.multipleDataFromExcel("Nisarga", "Hotels_005_Test");
 		return info;
 	}
-	@Test(dataProvider = "data")
+	@Test(dataProvider = "data",groups = "Funtionality")
 	public void guestRoomSelect(String data[]){
 		homePage.getHotelsNavBar().click();
 		explicitWait.until(ExpectedConditions.elementToBeClickable(hotelPage.getSearchHotelButton()));
